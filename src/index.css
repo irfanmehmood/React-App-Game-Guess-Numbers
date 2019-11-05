@@ -1,0 +1,173 @@
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+#timerH4 {
+  padding-left: 20px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.fa-check {
+  margin-right:10px;
+}
+
+.gamestatusHolder {
+  border:1px solid gray;
+  10px -10px 10px 0px;
+}
+
+.disabled-btn {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.fa-thumbs-down {
+  color:red;
+
+}
+
+.fa-thumbs-up {
+  color:green;
+
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+h3.red-msg{
+  background-color: #FF8784;
+}
+
+h3.red-msg, h3.green-msg{
+  display:block;
+  color:black;
+  padding:20px;
+  margin:0;
+  text-transform: uppercase;
+}
+
+h3.green-msg {
+  background-color: #90EE90;
+}
+
+h3.gameStatus {
+}
+
+.start-game-btn-home {
+
+}
+
+span.red-msg{
+  color: red;
+  text-transform: uppercase;
+}
+
+
+span.green-msg {
+  color: green;
+  text-transform: uppercase;
+}
+
+.Instructions{
+  padding: 0 20px;
+}
+
+
+
+li.yes-correct {
+  background-color: #90EE90;
+  color:white;
+}
+
+.no-wrong {
+  background-color: #FF8784;
+  color:white;
+}
+
+.playerMenu ul li {
+  margin:10px;
+}
+
+.yellow-msg {
+  display:block;
+  color:black;
+  background-color: yellow;
+  padding:20px;
+  margin:0;
+}
+
+.btn-div-container{
+  padding:5px;
+  margin:0px;
+}
+
+.square, .squareDisabled {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width:100%;
+  height:100%;
+
+
+}
+
+.square-box {
+  width:100%;
+  padding:80px 30px;
+  margin:0;
+}
+
+.sq-cont {
+  margin:0;
+  padding:0;
+}
+
+.playerMenu, .scoreDetails{
+  border:1px solid #999;
+  background-color: white;
+}
+
+.scoreDetails ul{
+  margin: 0;
+  padding: 0;
+}
+.scoreDetails ul li{
+  padding:10px;
+  margin-bottom:1px;
+}
+
+.gameStatus-col, .gameStart-col{
+  padding-left:4px !important;
+
+}
+
+
+
+.selected {
+  background: #90EE90;
+  color:white;
+}
+
+
+
+.squareDisabled:focus {
+  outline:0 !important;
+
+}
+
+.square:focus, .square:hover {
+  outline:0 !important;
+    background-color:#ADD9E6;
+    cursor: pointer;
+}

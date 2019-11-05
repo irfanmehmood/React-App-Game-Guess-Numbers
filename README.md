@@ -1,2 +1,2 @@
-# html-templates
-Html design templates
+# React JS
+A Guessing game developed in reactjs
